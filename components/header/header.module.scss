@@ -1,0 +1,7 @@
+@import './styles/variables.scss';
+
+.header {
+    background-color: $color-grey-dark-1;
+    grid-column: full-start / col-end 6;
+    // grid-row: 1;
+}

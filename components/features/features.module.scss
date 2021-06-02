@@ -1,0 +1,30 @@
+@import './styles/variables.scss';
+
+.features {
+    grid-column: center-start / center-end;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
+    margin: 15rem 0;
+    gap: 6rem;
+
+    align-items: start;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+
+    row-gap: 2rem;
+    column-gap: 3rem;
+    &__icon {
+        fill: $color-primary;
+        height: 4.5rem;
+        width: 4.5rem;
+        grid-row: 1 / span 2;
+    }
+    &__text {
+        font-size: 1.7rem;
+    }
+}

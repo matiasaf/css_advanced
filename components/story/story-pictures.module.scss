@@ -1,0 +1,35 @@
+@import './styles/variables.scss';
+
+.storyPictures {
+    background-color: $color-primary;
+    grid-column: full-start / col-end 4;
+
+    background-image: linear-gradient(
+            rgba($color-primary, 0.5),
+            rgba($color-primary, 0.5)
+        ),
+        url('/img/back.jpg');
+
+    display: grid;
+
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.img1 {
+    width: 100%;
+    grid-column: 2 / 6;
+    grid-row: 2/ 6;
+
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+}
+
+.img2 {
+    width: 115%;
+    z-index: 20;
+    grid-column: 4 / 7;
+    grid-row: 4 / 6;
+    
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
