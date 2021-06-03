@@ -50,6 +50,73 @@ function Gallery() {
                     className={styles.img}
                 />
             </figure>
+
+            <figure className={styles.item__7}>
+                <img
+                    src="img/gal-7.jpeg"
+                    alt="Gallery Image 7"
+                    className={styles.img}
+                />
+            </figure>
+
+            <figure className={styles.item__8}>
+                <img
+                    src="img/gal-8.jpeg"
+                    alt="Gallery Image 8"
+                    className={styles.img}
+                />
+            </figure>
+
+            <figure className={styles.item__9}>
+                <img
+                    src="img/gal-9.jpeg"
+                    alt="Gallery Image 9"
+                    className={styles.img}
+                />
+            </figure>
+
+           <figure className={styles.item__10}>
+                <img
+                    src="img/gal-10.jpeg"
+                    alt="Gallery Image 10"
+                    className={styles.img}
+                />
+            </figure>
+
+            
+
+            <figure className={styles.item__11}>
+                <img
+                    src="img/gal-11.jpeg"
+                    alt="Gallery Image 11"
+                    className={styles.img}
+                />
+            </figure>
+            
+           
+            <figure className={styles.item__12}>
+                <img
+                    src="img/gal-12.jpeg"
+                    alt="Gallery Image 12"
+                    className={styles.img}
+                />
+            </figure>
+         
+            <figure className={styles.item__13}>
+                <img
+                    src="img/gal-13.jpeg"
+                    alt="Gallery Image 13"
+                    className={styles.img}
+                />
+            </figure> 
+
+            <figure className={styles.item__14}>
+                <img
+                    src="img/gal-14.jpeg"
+                    alt="Gallery Image 14"
+                    className={styles.img}
+                />
+            </figure>
         </div>
     );
 }
