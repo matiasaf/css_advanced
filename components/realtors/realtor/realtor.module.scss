@@ -1,0 +1,13 @@
+@import './styles/variables.scss';
+
+.img {
+    height: 7rem;
+    border-radius: 50%;
+    display: block;
+}
+
+.sold {
+    text-transform: uppercase;
+    color: $color-grey-light-2;
+    margin-top: -3px;
+}
